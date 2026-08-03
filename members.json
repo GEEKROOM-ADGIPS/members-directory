@@ -1,0 +1,87 @@
+{
+  "organization": "Geek Room ADGIPS",
+  "description": "Official member directory of Geek Room - ADGIPS Chapter",
+  "last_updated": "2026-08-03",
+  "departments": [
+    {
+      "id": "aiml",
+      "name": "AI / ML",
+      "emoji": "🧠",
+      "description": "Machine Learning, Deep Learning & Data Science",
+      "lead": "TBD"
+    },
+    {
+      "id": "dsa",
+      "name": "DSA & CP",
+      "emoji": "⚡",
+      "description": "Problem Solving, Data Structures & Competitive Programming",
+      "lead": "TBD"
+    },
+    {
+      "id": "emerging-tech",
+      "name": "Emerging Tech",
+      "emoji": "🚀",
+      "description": "Web3, Cloud Computing, IoT & Next-gen Tech",
+      "lead": "TBD"
+    },
+    {
+      "id": "webdev",
+      "name": "Web Development",
+      "emoji": "🌐",
+      "description": "Frontend, Backend, Full-Stack Web Dev & Web Apps",
+      "lead": "TBD"
+    },
+    {
+      "id": "event-management",
+      "name": "Event Management",
+      "emoji": "🎪",
+      "description": "Event Planning, Logistics & Operations",
+      "lead": "TBD"
+    }
+  ],
+  "batches": [
+    {
+      "year": "2026-2030",
+      "label": "Freshers (2026)",
+      "emoji": "🌱"
+    },
+    {
+      "year": "2025-2029",
+      "label": "Sophomores (2025)",
+      "emoji": "🌿"
+    },
+    {
+      "year": "2024-2028",
+      "label": "Juniors (2024)",
+      "emoji": "🌳"
+    },
+    {
+      "year": "2023-2027",
+      "label": "Seniors (2023)",
+      "emoji": "🎓"
+    },
+    {
+      "year": "2022-2026",
+      "label": "Alumni (2022)",
+      "emoji": "🏛️"
+    }
+  ],
+  "members": [
+    {
+      "name": "Himanshu Pathak",
+      "github": "HimanshuPathak2725",
+      "batch": "2024-2028",
+      "department": "aiml",
+      "role": "Lead",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "linkedin": "himanshu-pathak-",
+      "twitter": "",
+      "portfolio": "https://portfolio-to-infinity.vercel.app/",
+      "bio": "As a passionate AI Engineer, Building production-ready microservices & full-stack applications."
+    }
+  ]
+}
