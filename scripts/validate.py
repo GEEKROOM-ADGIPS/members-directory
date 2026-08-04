@@ -27,13 +27,23 @@ def validate():
         sys.exit(1)
 
     members = data.get("members", [])
+    departments = data.get("departments", [])
     if not members:
         errors.append("No members found in members.json")
+
+    # Collect all GitHub usernames from members
+    member_usernames = [m.get("github", "") for m in members]
 
     # Check for template member still present
     for m in members:
         if m.get("github") == "your-github-username":
             errors.append("Template member (your-github-username) still present — replace with real data!")
+
+    # Validate department leads exist in members (if not TBD)
+    for dept in departments:
+        lead = dept.get("lead", "TBD")
+        if lead != "TBD" and lead not in member_usernames:
+            errors.append(f"Department '{dept['id']}' lead '{lead}' not found in members")
 
     # Validate each member
     github_usernames = []
@@ -109,3 +119,4 @@ def validate():
 
 if __name__ == "__main__":
     sys.exit(validate())
+    
