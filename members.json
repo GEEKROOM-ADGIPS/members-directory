@@ -82,6 +82,22 @@
       "twitter": "",
       "portfolio": "https://portfolio-to-infinity.vercel.app/",
       "bio": "As a passionate AI Engineer, Building production-ready microservices & full-stack applications."
+    },
+    {
+      "name": "Manav Garg",
+      "github": "Manav2K7",
+      "batch": "2024-2028",
+      "department": "webdev",
+      "role": "Lead",
+      "skills": [
+        "Java",
+        "Springboot",
+        "RAG"
+      ],
+      "linkedin": "manav-garg0007",
+      "twitter": "",
+      "portfolio": "https://manav07.lovable.app/",
+      "bio": ""
     }
   ]
 }
