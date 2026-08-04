@@ -4,7 +4,7 @@
 
 **Official directory of all past and active members of Geek Room - ADGIPS Chapter**
 
-[![Members](https://img.shields.io/badge/Members-3-blue?style=for-the-badge)]()
+[![Members](https://img.shields.io/badge/Members-4-blue?style=for-the-badge)]()
 [![Departments](https://img.shields.io/badge/Departments-5-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -31,9 +31,9 @@
 
 | Metric | Count |
 |--------|-------|
-| 👥 Total Members | **3** |
+| 👥 Total Members | **4** |
 | ⭐ Leads & Co-Leads | **2** |
-| 🏛️ Core Team | **1** |
+| 🏛️ Core Team | **2** |
 | 🏢 Departments | **5** |
 | 📅 Active Batches | **1** |
 
@@ -55,6 +55,7 @@
 | | Name | Department | Batch | Links |
 |---|------|------------|-------|-------|
 | <img src="https://github.com/AyushChoudhary6.png" width="40" height="40" style="border-radius:50%"> | **Ayush Choudhary** | 🌐 Web Development | 2024-2028 | [GitHub](https://github.com/AyushChoudhary6) · [LinkedIn](https://linkedin.com/in/ayush-choudhary-29aa01325) |
+| <img src="https://github.com/ReachalJain.png" width="40" height="40" style="border-radius:50%"> | **Reachal Jain** | 🎪 Event Management | 2024-2028 | [GitHub](https://github.com/ReachalJain) · [LinkedIn](https://linkedin.com/in/reachal-jain-0946a536b) |
 
 ## 🏢 Members by Department
 
@@ -96,7 +97,9 @@
 
 *Event Planning, Logistics & Operations*
 
-> No members added yet. Be the first! [Add yourself →](CONTRIBUTING.md)
+| | Name | Batch | Skills | Links |
+|---|------|-------|--------|-------|
+| <img src="https://github.com/ReachalJain.png" width="40" height="40" style="border-radius:50%"> | **Reachal Jain** `Core Team` | 2024-2028 | Java, Spring Boot, JDBC | [GitHub](https://github.com/ReachalJain) · [LinkedIn](https://linkedin.com/in/reachal-jain-0946a536b) |
 
 
 ---
@@ -108,6 +111,7 @@
 - 🧠 **Himanshu Pathak** (Lead) — [HimanshuPathak2725](https://github.com/HimanshuPathak2725)
 - 🌐 **Manav Garg** (Lead) — [Manav2K7](https://github.com/Manav2K7)
 - 🌐 **Ayush Choudhary** (Core Team) — [AyushChoudhary6](https://github.com/AyushChoudhary6)
+- 🎪 **Reachal Jain** (Core Team) — [ReachalJain](https://github.com/ReachalJain)
 
 
 ---
