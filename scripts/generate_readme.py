@@ -15,10 +15,22 @@ def load_data():
 def get_github_avatar(username):
     return f"https://github.com/{username}.png"
 
+def get_role_priority(role):
+    """Return sort priority: lower number = higher rank"""
+    priorities = {
+        "Lead": 0,
+        "Co-Lead": 1,
+        "Core Team": 2,
+        "Member": 3,
+        "Alumni": 4
+    }
+    return priorities.get(role, 5)
+
 def generate_stats(data):
     members = data["members"]
     total = len(members)
     leads = sum(1 for m in members if "Lead" in m["role"])
+    core_team = sum(1 for m in members if m["role"] == "Core Team")
     departments = len(data["departments"])
     batches = len(set(m["batch"] for m in members))
 
@@ -29,8 +41,41 @@ def generate_stats(data):
 |--------|-------|
 | 👥 Total Members | **{total}** |
 | ⭐ Leads & Co-Leads | **{leads}** |
+| 🏛️ Core Team | **{core_team}** |
 | 🏢 Departments | **{departments}** |
 | 📅 Active Batches | **{batches}** |
+
+"""
+
+def generate_executive_board(members, departments):
+    board_members = [m for m in members if m["role"] == "Core Team"]
+    if not board_members:
+        return ""
+
+    board_members.sort(key=lambda x: x["name"])
+
+    rows = []
+    for m in board_members:
+        avatar = get_github_avatar(m["github"])
+        dept = next((d for d in departments if d["id"] == m["department"]), None)
+        dept_emoji = dept["emoji"] if dept else "📌"
+        dept_name = dept["name"] if dept else m["department"]
+        links = f"[GitHub](https://github.com/{m['github']})"
+        if m.get("linkedin"):
+            links += f" · [LinkedIn](https://linkedin.com/in/{m['linkedin']})"
+        if m.get("portfolio"):
+            links += f" · [Portfolio]({m['portfolio']})"
+
+        rows.append(f"""| <img src="{avatar}" width="40" height="40" style="border-radius:50%"> | **{m['name']}** | {dept_emoji} {dept_name} | {m['batch']} | {links} |""")
+
+    table = "| | Name | Department | Batch | Links |\n"
+    table += "|---|------|------------|-------|-------|\n"
+    table += "\n".join(rows)
+
+    return f"""
+## 🏛️ Executive Board
+
+{table}
 
 """
 
@@ -46,8 +91,8 @@ def generate_department_section(dept, members):
 
 """
 
-    # Sort: Leads first, then by name
-    dept_members.sort(key=lambda x: (0 if "Lead" in x["role"] else 1, x["name"]))
+    # Sort: Lead → Co-Lead → Core Team → Member → Alumni
+    dept_members.sort(key=lambda x: (get_role_priority(x["role"]), x["name"]))
 
     rows = []
     for m in dept_members:
@@ -80,7 +125,7 @@ def generate_batch_section(batch, members, departments):
     if not batch_members:
         return ""
 
-    batch_members.sort(key=lambda x: (0 if "Lead" in x["role"] else 1, x["name"]))
+    batch_members.sort(key=lambda x: (get_role_priority(x["role"]), x["name"]))
 
     items = []
     for m in batch_members:
@@ -97,6 +142,9 @@ def generate_readme(data):
     members = data["members"]
     departments = data["departments"]
     batches = data["batches"]
+
+    # Generate executive board
+    board_section = generate_executive_board(members, departments)
 
     # Generate department sections
     dept_sections = ""
@@ -139,6 +187,7 @@ def generate_readme(data):
 
 - [Quick Stats](#-quick-stats)
 - [Leadership](#-leadership-team)
+- [Executive Board](#-executive-board)
 - [Members by Department](#-members-by-department)
 - [Members by Batch](#-members-by-batch)
 - [How to Join](#-how-to-join)
@@ -152,10 +201,8 @@ def generate_readme(data):
 
 ## 👑 Leadership Team
 
-{leads_section}
----
-
-## 🏢 Members by Department
+{leads_section}---
+{board_section}## 🏢 Members by Department
 
 {dept_sections}
 ---
@@ -225,3 +272,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+        
