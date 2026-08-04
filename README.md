@@ -4,7 +4,7 @@
 
 **Official directory of all past and active members of Geek Room - ADGIPS Chapter**
 
-[![Members](https://img.shields.io/badge/Members-2-blue?style=for-the-badge)]()
+[![Members](https://img.shields.io/badge/Members-3-blue?style=for-the-badge)]()
 [![Departments](https://img.shields.io/badge/Departments-5-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -30,7 +30,7 @@
 
 | Metric | Count |
 |--------|-------|
-| 👥 Total Members | **2** |
+| 👥 Total Members | **3** |
 | ⭐ Leads & Co-Leads | **2** |
 | 🏢 Departments | **5** |
 | 📅 Active Batches | **1** |
@@ -82,6 +82,7 @@
 | | Name | Batch | Skills | Links |
 |---|------|-------|--------|-------|
 | <img src="https://github.com/Manav2K7.png" width="40" height="40" style="border-radius:50%"> | **Manav Garg** `Lead` | 2024-2028 | Java, Springboot, RAG | [GitHub](https://github.com/Manav2K7) · [LinkedIn](https://linkedin.com/in/manav-garg0007) · [Portfolio](https://manav07.lovable.app/) |
+| <img src="https://github.com/AyushChoudhary6.png" width="40" height="40" style="border-radius:50%"> | **Ayush Choudhary** `Core Team` | 2024-2028 | DevOps | [GitHub](https://github.com/AyushChoudhary6) · [LinkedIn](https://linkedin.com/in/ayush-choudhary-29aa01325) |
 
 
 ### 🎪 Event Management
@@ -99,6 +100,7 @@
 
 - 🧠 **Himanshu Pathak** (Lead) — [HimanshuPathak2725](https://github.com/HimanshuPathak2725)
 - 🌐 **Manav Garg** (Lead) — [Manav2K7](https://github.com/Manav2K7)
+- 🌐 **Ayush Choudhary** (Core Team) — [AyushChoudhary6](https://github.com/AyushChoudhary6)
 
 
 ---
