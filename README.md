@@ -4,7 +4,7 @@
 
 **Official directory of all past and active members of Geek Room - ADGIPS Chapter**
 
-[![Members](https://img.shields.io/badge/Members-1-blue?style=for-the-badge)]()
+[![Members](https://img.shields.io/badge/Members-2-blue?style=for-the-badge)]()
 [![Departments](https://img.shields.io/badge/Departments-5-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -30,8 +30,8 @@
 
 | Metric | Count |
 |--------|-------|
-| 👥 Total Members | **1** |
-| ⭐ Leads & Co-Leads | **1** |
+| 👥 Total Members | **2** |
+| ⭐ Leads & Co-Leads | **2** |
 | 🏢 Departments | **5** |
 | 📅 Active Batches | **1** |
 
@@ -44,6 +44,7 @@
 ### 👑 Leadership Team
 
 - **Himanshu Pathak** — Lead of AI / ML ([@HimanshuPathak2725](https://github.com/HimanshuPathak2725))
+- **Manav Garg** — Lead of Web Development ([@Manav2K7](https://github.com/Manav2K7))
 
 
 ---
@@ -78,7 +79,9 @@
 
 *Frontend, Backend, Full-Stack Web Dev & Web Apps*
 
-> No members added yet. Be the first! [Add yourself →](CONTRIBUTING.md)
+| | Name | Batch | Skills | Links |
+|---|------|-------|--------|-------|
+| <img src="https://github.com/Manav2K7.png" width="40" height="40" style="border-radius:50%"> | **Manav Garg** `Lead` | 2024-2028 | Java, Springboot, RAG | [GitHub](https://github.com/Manav2K7) · [LinkedIn](https://linkedin.com/in/manav-garg0007) · [Portfolio](https://manav07.lovable.app/) |
 
 
 ### 🎪 Event Management
@@ -95,6 +98,7 @@
 ### 🌳 Juniors (2024)
 
 - 🧠 **Himanshu Pathak** (Lead) — [HimanshuPathak2725](https://github.com/HimanshuPathak2725)
+- 🌐 **Manav Garg** (Lead) — [Manav2K7](https://github.com/Manav2K7)
 
 
 ---
@@ -140,6 +144,6 @@ This project is licensed under the [MIT License](LICENSE) — feel free to use t
 
 **Made with ❤️ by the Geek Room ADGIPS Community**
 
-*Last updated: August 03, 2026*
+*Last updated: August 04, 2026*
 
 </div>
