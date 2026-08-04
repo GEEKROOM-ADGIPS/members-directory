@@ -98,6 +98,20 @@
       "twitter": "",
       "portfolio": "https://manav07.lovable.app/",
       "bio": ""
+    },
+    {
+      "name": "Ayush Choudhary",
+      "github": "AyushChoudhary6",
+      "batch": "2024-2028",
+      "department": "webdev",
+      "role": "Core Team",
+      "skills": [
+        "DevOps"
+      ],
+      "linkedin": "ayush-choudhary-29aa01325",
+      "twitter": "",
+      "portfolio": "",
+      "bio": ""
     }
   ]
 }
