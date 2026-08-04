@@ -112,6 +112,22 @@
       "twitter": "",
       "portfolio": "",
       "bio": ""
+    },
+    {
+      "name": "Reachal Jain",
+      "github": "ReachalJain",
+      "batch": "2024-2028",
+      "department": "event-management",
+      "role": "Core Team",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "JDBC"
+      ],
+      "linkedin": "reachal-jain-0946a536b",
+      "twitter": "",
+      "portfolio": "",
+      "bio": "Passionate about Java Backend and Full stack and Full Stack Development"
     }
   ]
 }
