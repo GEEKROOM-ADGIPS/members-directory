@@ -18,6 +18,7 @@
 
 - [Quick Stats](#-quick-stats)
 - [Leadership](#-leadership-team)
+- [Executive Board](#-executive-board)
 - [Members by Department](#-members-by-department)
 - [Members by Batch](#-members-by-batch)
 - [How to Join](#-how-to-join)
@@ -32,6 +33,7 @@
 |--------|-------|
 | 👥 Total Members | **3** |
 | ⭐ Leads & Co-Leads | **2** |
+| 🏛️ Core Team | **1** |
 | 🏢 Departments | **5** |
 | 📅 Active Batches | **1** |
 
@@ -46,8 +48,13 @@
 - **Himanshu Pathak** — Lead of AI / ML ([@HimanshuPathak2725](https://github.com/HimanshuPathak2725))
 - **Manav Garg** — Lead of Web Development ([@Manav2K7](https://github.com/Manav2K7))
 
-
 ---
+
+## 🏛️ Executive Board
+
+| | Name | Department | Batch | Links |
+|---|------|------------|-------|-------|
+| <img src="https://github.com/AyushChoudhary6.png" width="40" height="40" style="border-radius:50%"> | **Ayush Choudhary** | 🌐 Web Development | 2024-2028 | [GitHub](https://github.com/AyushChoudhary6) · [LinkedIn](https://linkedin.com/in/ayush-choudhary-29aa01325) |
 
 ## 🏢 Members by Department
 
